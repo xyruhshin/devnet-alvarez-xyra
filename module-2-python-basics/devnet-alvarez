@@ -16,11 +16,15 @@ def display_menu():
     print("5. Exit")
     option = input("Choose an Option: ")
     movies = ["The Notebook", "Harry Potter", "Twilight"]
+    for movie in movies:
+        print(movie)
     sug_movies = ["kahit ano", "kahit ano", "kahit ano"]
 
     if option == '1':
         print(input("Add a Movie: "))
-        print(movies)
+        movies = ["The Notebook", "Harry Potter", "Twilight"]
+        for movie in movies:
+                print(movie)
     elif option == '2':
         print(movies)
     elif option == '3':
@@ -38,11 +42,6 @@ display_menu()
 pass
 
 def add_movie(movie_list):
-    movie = input("What Movie are you adding? ")
-    director = input("Who's the director? ")
-    # movies = ["My Secret Romance", "The Notebook", "Happy", "Heartue"]
     # ask for title, director, and status
     # build the movie string
     # add it to the list
-    
-
