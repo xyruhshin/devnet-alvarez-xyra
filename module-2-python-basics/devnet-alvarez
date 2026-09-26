@@ -1,0 +1,49 @@
+"""
+Midterm Practical Exam — Movie Collection Manager
+Student: Alvarez, Xyra Shannel B.
+"""
+
+movie = []
+
+def display_menu():
+    print("---Movie Collection Manager---")
+# print the menu
+# return the user's choice
+    print("1. Add a Movie")
+    print("2. View all movies")
+    print("3. Count watched vs unwatched")
+    print("4. Find a movie")
+    print("5. Exit")
+    option = input("Choose an Option: ")
+    movies = ["The Notebook", "Harry Potter", "Twilight"]
+    for movie in movies:
+        print(movie)
+    sug_movies = ["kahit ano", "kahit ano", "kahit ano"]
+
+    if option == '1':
+        input("Add a Movie: ")
+        #movies = ["The Notebook", "Harry Potter", "Twilight"]
+        #for movie in movies:
+        print("Movie added.")
+    elif option == '2':
+        print(movies)
+    elif option == '3':
+        print("The Notebook - unwatched")
+    elif option == '4':
+        print(sug_movies)
+    elif option == '5':
+        print("Thank you!")
+    else: 
+        print ("Invalid")
+        
+
+display_menu()
+
+pass
+
+def add_movie(movie_list):
+    print(movie_list)
+
+add_movie("Twilight")
+add_movie("Cinderella")
+add_movie("Forgotten Island")
