@@ -7,8 +7,8 @@ movie = []
 
 def display_menu():
     print("---Movie Collection Manager---")
-    # print the menu
-    # return the user's choice
+# print the menu
+# return the user's choice
     print("1. Add a Movie")
     print("2. View all movies")
     print("3. Count watched vs unwatched")
@@ -21,10 +21,10 @@ def display_menu():
     sug_movies = ["kahit ano", "kahit ano", "kahit ano"]
 
     if option == '1':
-        print(input("Add a Movie: "))
-        movies = ["The Notebook", "Harry Potter", "Twilight"]
-        for movie in movies:
-                print(movie)
+        input("Add a Movie: ")
+        #movies = ["The Notebook", "Harry Potter", "Twilight"]
+        #for movie in movies:
+        print("Movie added.")
     elif option == '2':
         print(movies)
     elif option == '3':
@@ -42,6 +42,8 @@ display_menu()
 pass
 
 def add_movie(movie_list):
-    # ask for title, director, and status
-    # build the movie string
-    # add it to the list
+    print(movie_list)
+
+add_movie("Twilight")
+add_movie("Cinderella")
+add_movie("Forgotten Island")
