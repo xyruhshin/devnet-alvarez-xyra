@@ -1,7 +1,7 @@
 """
 Module 2 — Lesson 3: Loops & Lists
-Student: [Xyra Shannel B. Alvarez]
-Date: [September 26, 2026]
+Student: Xyra Shannel B. Alvarez
+Date: September 26, 2026
 
 ============================================
 WHAT IS THIS TOPIC? (explain it like you're
