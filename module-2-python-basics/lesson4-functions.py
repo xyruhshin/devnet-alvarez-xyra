@@ -1,7 +1,7 @@
 """
 Module 2 — Lesson 4: Functions
-Student: [Xyra Shannel B. Alvarez]
-Date: [September 27, 2026]
+Student: Xyra Shannel B. Alvarez
+Date: September 27, 2026
 
 ============================================
 WHAT IS THIS TOPIC? (explain it like you're
