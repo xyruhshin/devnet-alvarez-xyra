@@ -16,10 +16,10 @@ it runs when none of the previous conditions are true.
 ============================================
 KEY VOCABULARY
 ============================================
-- condition:
-- if / elif / else:
-- comparison operator:
-- boolean expression:
+- condition: a statement that checks whether something is true or false
+- if / elif / else: are used to control which block of code runs based on a condition
+- comparison operator: are operators that is used to compare values, such as ==, >, <, >=, or <=
+- boolean expression: results in either True or False
 (add more as needed)
 
 
@@ -46,7 +46,8 @@ A MISTAKE I MADE (or one I want to avoid)
 ============================================
 [what's something confusing or easy to get wrong
 about this topic?]
-The error I've encountered is not putting a colon after the statement.
+
+The error I've encountered is not putting a colon after the statement. 
 
 ============================================
 HOW THIS CONNECTS TO SOMETHING ELSE

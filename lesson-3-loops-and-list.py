@@ -42,8 +42,8 @@ for name in names:
 ============================================
 A MISTAKE I MADE (or one I want to avoid)
 ============================================
-I am a little bit confuse in loop part, the variable name is very
-confusing for me. 
+I got an error in variables, because the other one is name without s then a name with s. 
+I got really confuse.
 
 
 ============================================

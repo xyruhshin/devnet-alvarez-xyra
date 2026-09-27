@@ -7,34 +7,45 @@
 
 ## What is Git? What is GitHub? (explain like you're teaching a friend who's never used either)
 
-[Write your own explanation here. What problem does Git actually solve? How is GitHub different from Git itself?]
+Git is a tool installed on your computer that helps manage your projects, while GitHub is an online platform where you can store and manage your Git projects.
 
 ---
 
 ## Key vocabulary (in your own words)
 
-- repository:
-- commit:
-- branch:
-- push / pull:
-- pull request:
-- merge conflict:
+- repository: is a storage place for your project files and their version history
+- commit: saves the record of the changes you made to your files
+- branch: a separate version of a project where you can make changes without affecting the main branch
+- push / pull: Push sends your local changes to GitHub, while Pull gets the latest changes from GitHub to your computer
+- pull request: is a request to add your changes from one branch into another branch
+- merge conflict:is a problem that happens when git finds different changes to the same part of a file and cannot automatically combine them
 
 ---
 
 ## Walking through what I did
-
-[Describe, step by step, a real branch → commit → push → PR you did. Include the actual commands you used.]
+- I created a new branch called xyra using the command 'git switch -c xyra'
+- Then I made the necessary changes and checked them using 'git status'
+- After that, I added the changes using 'git add .' and committed them using 'git commit -m "Updated"'
+- I pushed the branch to GitHub using 'git push'
+- Finally, I opened GitHub and created a Pull Request from the "xyra" branch to the "main" branch so the changes could be reviewed and merged
 
 ```
-# paste your actual commands here
+git switch -c
+git branch
+git status
+git branch -d
+git add .
+git commit -m
+git push 
 ```
 
 ---
 
 ## A mistake I made (or one I want to avoid)
 
-[What tripped you up? A confusing error message, committing to the wrong branch, a merge conflict — explain it so a classmate reading this avoids the same mistake.]
+I experienced an error, there is another branch that I deleted. I got confused because the branch
+has no connection in what I am doing. Next time i'll use this again, I will avoid confusing
+parts, and will work patiently and properly.
 
 ---
 

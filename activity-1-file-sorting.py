@@ -6,18 +6,20 @@ Date: [date]
 ============================================
 WHAT DID YOU BUILD? (explain in your own words)
 ============================================
-[Paste your working script below first, then come back and explain
-it here: what does your script do, and what rule did you use to
-sort the files? e.g. by extension, by name, by date, etc.]
+
+Simple file organizer that sorts files from my downloads folder
+into different folders. it checks the file extension and moves
+.jpg and .png files into the Images folder, while .pdf and .docx
+files are moved into the Documents folder.
 
 
 ============================================
 KEY VOCABULARY
 ============================================
-- os module:
-- shutil module:
-- file path:
-- directory:
+- os module: module used to interact with the operating system, such as managing files and directories
+- shutil module: module used to copy, move, rename, and delete files or directories
+- file path: location or address of a file on a computer
+- directory: folder used to organize and store files or other folders
 (add more as needed)
 
 
@@ -53,6 +55,10 @@ A MISTAKE I MADE (or one I want to avoid)
 [what tripped you up while building this? e.g. a path that didn't
 exist, a file that got overwritten, something that didn't work the
 way you expected at first]
+
+The mistake I made is forgetting that the destination folders
+needed to exist before moving the files. I realized that before 
+moving anything, I need to check or create folder first.
 
 
 ============================================

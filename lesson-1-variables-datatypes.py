@@ -15,12 +15,12 @@ And, Data Types are the values that can be stored inside the Variable.
 KEY VOCABULARY
 ============================================
 - variable: storage or container that stores data
-- data type:
-- int: outputs a whole number
-- float: outputs with decimal point
-- string: outputs a text
-- boolean: outputs a true or false
-- f-string: 
+- data type: defines what kind of value a variable can store, such as a string, integer, float, or boolean
+    - int: outputs a whole number
+    - float: outputs with decimal point
+    - string: outputs a text
+    - boolean: outputs a true or false
+- f-string: way to insert variables or expressions directly into a string by placing f before the string
 (add more as needed)
 
 
