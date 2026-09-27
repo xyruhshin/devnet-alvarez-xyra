@@ -27,7 +27,7 @@ Git is a tool installed on your computer that helps manage your projects, while 
 - Then I made the necessary changes and checked them using 'git status'
 - I then created a file named lesson4-functions.py inside module2
 - After that, I added the changes using 'git add .' and committed them using 'git commit -m'
-- I pushed the branch to GitHub using 'git push'
+- I pushed the branch to GitHub using 'git push -u origin'
 - Finally, I opened GitHub and created a Pull Request from the "xyra" branch to the "main" branch so the changes could be reviewed and merged
 
 ```
