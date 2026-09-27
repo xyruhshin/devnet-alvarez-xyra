@@ -1,23 +1,27 @@
 """
 Module 2 — Lesson 3: Loops & Lists
-Student: [your name]
-Date: [date]
+Student: [Xyra Shannel B. Alvarez]
+Date: [September 26, 2026]
 
 ============================================
 WHAT IS THIS TOPIC? (explain it like you're
 teaching a friend who's never coded before)
 ============================================
-[write your own explanation here]
-
+Lists are used to store multiple values in one variable.
+Loops are used to repeat a block of code multiple times.
 
 ============================================
 KEY VOCABULARY
 ============================================
 - list:
-- for loop:
-- while loop:
-- index:
-- iteration:
+- for loop: repeats each item
+- while loop: repeats while a condition is true
+- index: this the position of the item in list, starting with [0]
+- iteration: repeating a process one item at a time.
+    ex: Xyra - first iteration
+        Shannel - second iteration
+        Bautista - third iteration
+        Alvarez - forth iteration
 (add more as needed)
 
 
@@ -28,15 +32,18 @@ Write at least one working example below that you
 came up with yourself — not copied from class.
 """
 
-# --- your code example goes here ---
+names = ["Xyra", "Shannel", "Bautista", "Alvarez"]
+
+for name in names:
+    print(name)
 
 
 """
 ============================================
 A MISTAKE I MADE (or one I want to avoid)
 ============================================
-[what's something confusing or easy to get wrong
-about this topic?]
+I am a little bit confuse in loop part, the variable name is very
+confusing for me. 
 
 
 ============================================

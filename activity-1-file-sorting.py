@@ -30,7 +30,20 @@ Paste the code you already wrote for this activity below.
 import os
 import shutil
 
-# --- paste your existing code here ---
+folder = "Downloads"
+
+for file in os.listdir(folder):
+    file_path = os.path.join(folder, file)
+
+    if file.endswith(".jpg") or file.endswith(".png"):
+        destination = os.path.join(folder, "Images")
+        os.makedirs(destination, exist_ok=True)
+        shutil.move(file_path, destination)
+
+    elif file.endswith(".pdf") or file.endswith(".docx"):
+        destination = os.path.join(folder, "Documents")
+        os.makedirs(destination, exist_ok=True)
+        shutil.move(file_path, destination)
 
 
 """

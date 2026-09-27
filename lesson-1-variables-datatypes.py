@@ -1,24 +1,26 @@
 """
 Module 2 — Lesson 1: Variables & Data Types
-Student: [your name]
-Date: [date]
+Student: [Xyra Shannel B. Alvarez]
+Date: [September 26, 2026]
 
 ============================================
 WHAT IS THIS TOPIC? (explain it like you're
 teaching a friend who's never coded before)
 ============================================
 [write your own explanation here]
-
+In Variables & Data Types, Variable is a container that stores a value, it can hold different types of data.
+And, Data Types are the values that can be stored inside the Variable.
 
 ============================================
 KEY VOCABULARY
 ============================================
-- variable:
+- variable: storage or container that stores data
 - data type:
-- int:
-- float:
-- string:
-- boolean:
+- int: outputs a whole number
+- float: outputs with decimal point
+- string: outputs a text
+- boolean: outputs a true or false
+- f-string: 
 (add more as needed)
 
 
@@ -29,7 +31,10 @@ Write at least one working example below that you
 came up with yourself — not copied from class.
 """
 
-# --- your code example goes here ---
+name = input("What's your name? ")
+age = int(input("Enter your Age: "))
+
+print(f"Hi, {name}! this is your age {age}!")
 
 
 """
@@ -38,6 +43,9 @@ A MISTAKE I MADE (or one I want to avoid)
 ============================================
 [what's something confusing or easy to get wrong
 about this topic?]
+
+For me, I had an error in printing the variables. I got confused by using f-string.
+
 
 
 ============================================
