@@ -13,7 +13,7 @@ Loops are used to repeat a block of code multiple times.
 ============================================
 KEY VOCABULARY
 ============================================
-- list:
+- list: store multiple values in one variable
 - for loop: repeats each item
 - while loop: repeats while a condition is true
 - index: this the position of the item in list, starting with [0]
